@@ -1214,7 +1214,7 @@ function pageHome(){
   <section id="hero">
     <canvas id="heroCanvas"></canvas>
     <div class="hero-inner"><div class="wrap">
-      <span class="hero-badge rv in"><i class="dot"></i>DW DETAILING — AUTO DETAILING</span>
+      <span class="hero-badge rv in"><i class="dot"></i>DW DETAILING</span>
       <h1 class="hero-title"><span class="wc"><span class="wi" style="animation-delay:.05s">Grow</span></span> <span class="wc"><span class="wi" style="animation-delay:.14s">faster.</span></span> <span class="wc"><span class="wi" style="animation-delay:.23s">Spend</span></span> <span class="wc"><span class="wi" style="animation-delay:.32s">less.</span></span> <span class="wc"><span class="wi hl" style="animation-delay:.40s">Powered</span></span> <span class="wc"><span class="wi" style="animation-delay:.48s">by</span></span> <span class="wc"><span class="wi" style="animation-delay:.56s">AI.</span></span></h1>
       <p class="hero-sub">Marketing, branding, and lead generation — engineered with AI to grow your business faster and cheaper than ever before, across 29 industries.</p>
       <div class="hero-ctas">
@@ -2415,8 +2415,7 @@ document.getElementById('burger').onclick = ()=> document.getElementById('mobile
       ctx.textAlign='center';
       ctx.fillStyle = `rgba(120,170,230,${tagT*.9})`;
       ctx.font = (W<760? '8px':'11px') + ' "JetBrains Mono", monospace';
-      const tg = W<560 ? 'DW DETAILING · AUTO DETAILING'
-                       : 'S U M M I T   H O L D I N G S   ·   A R T I F I C I A L   I N T E L L I G E N C E';
+      const tg = 'DW DETAILING';
       ctx.fillText(tg, W/2, H/2 + Math.min(W*.86,900)*280/900/2 + 34);
       ctx.textAlign='start';
     }
